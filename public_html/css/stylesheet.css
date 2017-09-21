@@ -1,4 +1,4 @@
-/* --- Nav Bar --- */
+/* --- Navigation Bar Code --- */
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -20,8 +20,6 @@ nav li a {
   text-decoration: none;
 }
 
-/* Change the link color on hover */
 nav li a:hover {
-  /* This is a three digit code. Same as #111111 */
   background-color: #111;
 }
