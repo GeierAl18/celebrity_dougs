@@ -1,7 +1,42 @@
+
 h1{
 	text-align: center;
+
 	font-size: 60px;
 }
+body header{
+	width: 25%;
+}
+
 body{
 	background-color: #732000;
+}
+
+/* --- Nav Bar ---*/
+nav ul{
+	background-color: #8A1807;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width:120px;
+	overflow: hidden;
+}
+
+nav li{
+	float: left;
+}
+
+nav li a{
+	display: block;
+	padding: 8px;
+	text-decoration: none;
+	color: black;
+}
+
+nav li a.active{
+	background-color: #7f4b06;
+}
+
+nav li a:hover:not(.active){
+	background-color: #8a3e07;
 }
