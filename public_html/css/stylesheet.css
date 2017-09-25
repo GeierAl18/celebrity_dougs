@@ -1,10 +1,73 @@
+/* --- Color Scheme: 
+Black- 0D0D0D
+White/Light Grey- D7D9D8
+Dark Grey- 68736F
+Dark Red- 401916
+Red- 7B0000
+Source: https://color.adobe.com/DRS-color-theme-9925120/edit/?copy=true; --- */
+
+body{
+  background-color: #D7D9D8;
+}
+
+h1{
+  font: bold 36px arial, sans-serif;
+}
+
+h3{
+  font: bold 24px arial, sans-serif;
+}
+
+p {
+  font: 18px arial, sans-serif;
+}
+
+li {
+  font: 18px arial, sans-serif;
+}
+
+ul{
+  list-style-type: circle;
+}
+
+.outside {
+  font: bold 30px arial, sans-serif;
+}
+
+.middle {
+  font: bold 22px arial, sans-serif;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: auto;
+  border-style: solid;
+  border-color: #68736F;
+}
+
+footer {
+  font: 14px arial, sans-serif;
+  border-style: solid;
+  border-color: #68736F;
+}
+
+/* --- Table Style --- */
+#table1, th, td{
+  border: 2px solid black;
+  width: auto;
+  height: auto;
+  text-align: center;
+
+}
+
 /* --- Navigation Bar Code --- */
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #0D0D0D;
   font-family: arial,sans-serif;
 }
 
@@ -21,5 +84,5 @@ nav li a {
 }
 
 nav li a:hover {
-  background-color: #111;
+  background-color: #0D0D0D;
 }
