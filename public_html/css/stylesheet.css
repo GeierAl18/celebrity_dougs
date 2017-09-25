@@ -1,20 +1,111 @@
 
 h1{
 	text-align: center;
-
-	font-size: 60px;
+	font-family: Times, Georgia, Palatino, serif;
+	font-size: 50px;
 }
 
+h2{
+	font-size: 30px;
+	font-family: Times, Georgia, Palatino, serif;
+}
+
+h3{
+	font-size: 20px;
+	font-family: Times, Georgia, Palatino, serif;
+	padding-bottom: 0;
+}
+
+p {
+	font-size: 18px;
+	font-family: Arial, sans-serif;
+}
 
 body{
 	background-color: #732000;
 }
 
 
+/*--- event list ---*/
+
+#events{
+	padding:0;
+	margin:0;
+	list-style: none;
+}
+
+.eventdes{
+	list-style: none;
+	font-size: 18px;
+	padding-top: 5px;
+	font-family: Arial, sans-serif;
+}
+
+/*--- Ingredients List---*/
+.ingredientslist{
+	font-size: 18px;
+	padding-top: 5px;
+	font-family: Arial, sans-serif;
+}
+
+.ingredient{
+	padding-top: 5px;
+	font-size: 20px;
+	font-family: Arial, sans-serif;
+}
+
+/*--- Products List---*/
+
+#allflavors{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.flavor{
+	margin: 0;
+	padding: 0;
+	padding-left:30px; 
+}
+
+.flavorname{
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+
+}
+
+.flavor_des{
+	font-family: Arial, sans-serif;
+	font-size:15px;
+}
+ /*--- Locations Lists---*/
+
+ .continent{
+ 	font-size: 20px;
+ 	font-family: Arial, sans-serif;
+ }
+
+.address{
+	font-size: 15px;
+	padding: 3px;
+	font-family: Arial, sans-serif;
+}
 
 
+/*--- Table ---*/
 
+table{
+	border-collapse: collapse;
+	width: 100%;
+}
 
+th{
+	height:50px;
+}
+
+table, th, td{
+	border: 1px solid black;
+}
 
 /* --- Nav Bar ---*/
 nav ul{
