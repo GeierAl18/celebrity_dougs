@@ -24,6 +24,16 @@ p {
 
 body{
 	background-color: #732000;
+	margin: 0;
+}
+
+header{
+	background-color: #FFF;
+
+}
+
+article{
+	margin: 5px;
 }
 
 
@@ -84,6 +94,7 @@ body{
  .continent{
  	font-size: 20px;
  	font-family: Arial, sans-serif;
+ 	list-style: none;
  }
 
 .address{
@@ -98,6 +109,9 @@ body{
 table{
 	border-collapse: collapse;
 	width: 100%;
+	padding: 5px;
+	margin: 5px;
+	margin-right: 10px;
 }
 
 th{
