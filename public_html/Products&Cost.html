@@ -5,58 +5,102 @@
 
 <head>
 	<title> Products &#38; Cost </title>
+  <meta charset="utf-8">
+    <!-- This says our CSS is compatible with phones, and phones
+         don't need to scale it strangely. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Main CSS styles for Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Optional theme add-on -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/united/bootstrap.min.css">
+
+    <!-- If you don't like how bootstrap looks, go here and see other themes
+         that are available:
+         https://bootswatch.com/
+
+         You can replace the 'optional theme' with links from the page below
+         to get that theme:
+         https://www.bootstrapcdn.com/bootswatch/
+    -->
+
+    <!-- Our custom stylesheet that WE write. We need this to not have our
+         text appear under the nav bar. -->
+    <link rel="stylesheet" href="custom.css">
 </head>
 
 <body>
+<nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+
+            <!-- Three line "hamburger" icon for the collapsed navigation -->
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <!-- Title on nav bar -->
+          <a class="navbar-brand" href="#">Celebrity Doug's</a>
+        </div>
+
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href='About_Us.html'> About Us </a></li>
+              <li><a href='Ingredients.html'> Ingredients </a></li>
+              <li><a href='Restaurants.html'> Restaurant Locations </a></li>
+              <li><a href='Events.html'> Upcoming Events </a></li>
+              <li><a href='Login.html'> Member Login </a></li>
+              <li><a href='Index.html'> Index </a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
 <div class="container">
 <div class="below_menu_container">
+
     <header>
         <img src='bbq_sauce.png' alt='Celebrity Dougs BBQ Sauce' />
-         <h3> Site Navigation </h3>
-            <ul>
-	            <li><a href='About_Us.html'> About Us </a></li>
-	            <li><a href='Ingredients.html'> Ingredients </a></li>
-	            <li><a href='Restaurants.html'> Restaurant Locations </a></li>
-	            <li><a href='Events.html'> Upcoming Events </a></li>
-	            <li><a href='Login.html'> Member Login </a></li>
-	            <li><a href='Index.html'> Index </a></li>
-	        </ul>
     </header>
 
     <h1>Products</h1>
     
-    <ul>
-        <li><h3>Celebrity Doug's Classic BBQ</h3>
+    <ul class="list-group col-xs-12">
+        <li class="list-group-item"><h3>Celebrity Doug's Classic BBQ</h3>
             <ul>
-                <li>Our famous, homemade, and classic BBQ sauce proudly made on Thursday.</li>
+                <li class="well well-sm">Our famous, homemade, and classic BBQ sauce proudly made on Thursday.</li>
             </ul>
         </li>
-        <li><h3>Celebrity Doug's Flamin' Texas BBQ</h3>
+        <li class="list-group-item"><h3>Celebrity Doug's Flamin' Texas BBQ</h3>
             <ul>
-                <li>Classic taste with a kick of jalape&#241;o and haba&#241;ero flavor.</li>
+                <li class="well well-sm">Classic taste with a kick of jalape&#241;o and haba&#241;ero flavor.</li>
             </ul>
         </li>   
-        <li><h3>Celebrity Doug's Reaper Rampage Hot Sauce</h3>
+        <li class="list-group-item"><h3>Celebrity Doug's Reaper Rampage Hot Sauce</h3>
             <ul>
-                <li>Ever wanted to melt your tongue off? This is your sauce.</li>
+                <li class="well well-sm">Ever wanted to melt your tongue off? This is your sauce.</li>
             </ul>
         </li>
-        <li><h3>Celebrity Doug's Extra Sweet Chili Sauce</h3>
+        <li class="list-group-item"><h3>Celebrity Doug's Extra Sweet Chili Sauce</h3>
             <ul>
-                <li>The perfect combination of sweet and &#38; heat.</li>
+                <li class="well well-sm">The perfect combination of sweet and &#38; heat.</li>
             </ul>
         </li>
-        <li><h3>Celebrity Doug's Boomin' Buffalo</h3>
+        <li class="list-group-item"><h3>Celebrity Doug's Boomin' Buffalo</h3>
             <ul>
-                <li>Our new tangy wing sauce to liven up the party.</li>
+                <li class="well well-sm">Our new tangy wing sauce to liven up the party.</li>
             </ul>
         </li>
     </ul>
 <br>
     
-    <h1>Costs Per Bottle Size</h1>
+    <h1  class="col-xs-6">Costs Per Bottle Size</h1>
     
-<table>
+<table class="table table-bordered col-xs-6">
   <thead>
     <tr>
       <th>Small (16 oz.)</th>
@@ -74,12 +118,12 @@
     </tr>
   </tbody>
 </table>
-    <p>(All separate sauces are equal price in selected sizes) </p>
+    <p class="col-xs-7">(All separate sauces are equal price in selected sizes) </p>
  <br>
  <br>
  <br>
  <br>
-    <footer>
+    <footer class="col-xs-6">
     Corporate Headquarters: Latitude: 0.12938, Longitude: 62.51393<br /> &copy; 2017 by Alex Geier &#38; Ryan Nees
     </footer>
     </div>
