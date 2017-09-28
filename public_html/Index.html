@@ -4,42 +4,50 @@
 
 <html lang='en'>
 <head> 
-    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+<meta charset="utf-8">
     <title>Celebrity Doug's Famous BBQ</title>
-    <nav>
-    <ul>
-        <li>
-            <a href='index.html'> Index </a>
-        </li>
-
-        <li>
-            <a href='about_us.html'> About Us </a>
-        </li>
-        
-        <li>
-            <a href='products_and_cost.html'> Products and Cost </a>
-        </li>
-        
-        <li>    
-            <a href='ingredients.html'> Ingredients </a>
-        </li>
-
-        <li>    
-            <a href='restaurants.html'> Restaurant Locations </a>
-        </li>
-        
-        <li>
-            <a href='events.html'> Upcoming Events </a>
-        </li>
-        
-        <li>
-            <a href='login.html'> Member Login </a>
-        </li>
-    </ul>
-    </nav>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/custom.css">
 </head>
 
+
 <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+
+            <!-- Three line "hamburger" icon for the collapsed navigation -->
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <!-- Title on nav bar -->
+          <a class="navbar-brand" href="#">Celebrity Doug's</a>
+        </div>
+
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Index</a></li>
+            <li><a href="about_us.html">About Us</a></li>
+            <li><a href="products_and_cost.html">Products and Costs</a></li>
+            <li><a href="ingredients.html">Ingredients</a></li>
+            <li><a href="restaurants.html">Restaurant Locations</a></li>
+            <li><a href="events.html">Upcoming Events</a></li>
+            <li><a href="login.html">Member Login</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<!-- Main Content -->
+    <div class="containter">
+        <div class="below_menu_container">
     <header>
         <img src='img/bbq_sauce.png' alt='Celebrity Dougs BBQ Sauce'/>
     </header>
@@ -51,9 +59,15 @@
 <br>
 <br>
 <br> 
+
+</div>
+</div>
 <footer> 
     Corporate Headquarters: Latitude: 0.12938, Longitude: 62.51393<br /> &copy; 2017 by Alex Geier &#38; Ryan Nees
 </footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 
 </html>
